@@ -1,4 +1,7 @@
-# Real-Time-Payment-Fraud-Detection-System
+# Real-Time Payment Fraud Detection System
+
+![Fraud Detection](https://img.shields.io/badge/F1_Score-92%25-brightgreen) 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 
 ## file structure
 ```
@@ -25,10 +28,6 @@ Directory structure:
 ```
 
 
-# Real-Time Payment Fraud Detection System
-
-![Fraud Detection](https://img.shields.io/badge/F1_Score-92%25-brightgreen) 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 
 A machine learning pipeline that detects fraudulent payment transactions in real-time with 92% F1 score on imbalanced data.
 
