@@ -24,7 +24,7 @@ Directory structure:
 
 Here's a professional README.md for your fraud detection system:
 
-```markdown
+
 # Real-Time Payment Fraud Detection System
 
 ![Fraud Detection](https://img.shields.io/badge/F1_Score-92%25-brightgreen) 
