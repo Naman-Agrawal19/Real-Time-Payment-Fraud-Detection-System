@@ -16,8 +16,8 @@ Directory structure:
     ├── data/
     │   ├── sample.csv
     │   └── raw/
-    │       ├── log1.zip
-    │       └── log2.zip
+    │   |   ├── log1.zip
+    │   |   └── log2.zip
     |   |__ processed/
     |       |-- cleaned_data.csv
     ├── notebook/
