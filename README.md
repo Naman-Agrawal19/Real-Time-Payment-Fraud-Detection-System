@@ -18,6 +18,8 @@ Directory structure:
     │   └── raw/
     │       ├── log1.zip
     │       └── log2.zip
+    |   |__ processed/
+    |       |-- cleaned_data.csv
     ├── notebook/
     │   ├── df3.csv
     │   └── eda.ipynb
