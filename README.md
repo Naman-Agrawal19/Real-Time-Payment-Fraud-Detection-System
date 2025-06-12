@@ -47,7 +47,7 @@ Original dataset split into compressed files:
 - `data/raw/log1.zip`
 - `data/raw/log2.zip`
 
-Run `main.py` to automatically:
+Unzip the data and run `main.py` to automatically:
 1. Merge and preprocess data
 2. Generate `cleaned_data.csv`
 3. Train the model
