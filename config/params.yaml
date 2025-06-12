@@ -1,0 +1,19 @@
+data:
+  raw_path1: "data/raw/log1.csv"
+  raw_path2: "data/raw/log2.csv"
+  processed_path: "data/processed/cleaned_data.csv"
+  sample_path: "data/sample.csv"
+
+
+features:
+  target: "isFraud" # The target column for fraud detection
+
+model:
+  name: "CatBoostClassifier" # CatBoostClassifier or XGBoostClassifier
+  output_path: "models/{name}_model.joblib"
+  test_size: 0.2
+  random_state: 42
+  apply_smote: False # Set to true to apply SMOTE for imbalance handling
+  scaler: "models/scaler.joblib"
+  ohe: "models/ohe.joblib"
+  save_artifacts: True
