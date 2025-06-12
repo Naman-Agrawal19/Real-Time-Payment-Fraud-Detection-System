@@ -119,9 +119,9 @@ model:
 ## License
 
 MIT License
-```
 
-Key elements I've included:
+
+## Key elements I've included:
 
 1. **Visual Badges** - For quick scanning of key metrics
 2. **Pipeline Diagram** - Mermaid.js visualization of your workflow
