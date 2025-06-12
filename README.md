@@ -2,6 +2,7 @@
 
 ![Fraud Detection](https://img.shields.io/badge/F1_Score-92%25-brightgreen) 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Pipeline](https://img.shields.io/badge/Pipeline-ScikitLearn%2FSMOTE-orange)
 
 ## file structure
 ```
@@ -29,7 +30,7 @@ Directory structure:
 
 
 
-A machine learning pipeline that detects fraudulent payment transactions in real-time with 92% F1 score on imbalanced data.
+An End - to - end machine learning pipeline that detects fraudulent payment transactions in real-time with 92% F1 score on imbalanced data.
 
 ## Key Features
 
@@ -68,12 +69,9 @@ python main.py
 ```
 
 ### Prediction
+You can perform an analysis on `data/sample.csv` using this
 ```python
-from src.predict import load_pipeline, predict
-
-pipeline = load_pipeline("models/catboost_model.joblib")
-new_data = pd.read_csv("new_transactions.csv")
-fraud_probabilities = predict(pipeline, new_data)
+python pipeline.py
 ```
 
 ## Pipeline Architecture
@@ -83,8 +81,9 @@ graph TD
     A[Raw Data] --> B[Feature Engineering]
     B --> C[One-Hot Encoding]
     C --> D[SMOTE Resampling]
-    D --> E[CatBoost Classifier]
-    E --> F[Fraud Predictions]
+    D --> E[StandardScaler]
+    E -->F[CatBoost Classifier]
+    F --> G[Fraud Predictions]
 ```
 
 ## Configuration
