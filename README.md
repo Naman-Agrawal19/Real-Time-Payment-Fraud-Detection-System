@@ -24,8 +24,6 @@ Directory structure:
         └── train_model.py
 ```
 
-Here's a professional README.md for your fraud detection system:
-
 
 # Real-Time Payment Fraud Detection System
 
